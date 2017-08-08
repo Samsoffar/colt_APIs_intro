@@ -6,7 +6,7 @@ request('http://www.google.com', function (error, response, body) {
 });
 
 var request = require('request');
-request('http://www.google.com', function (error, response, body) {
+request('http://www.reddit.com', function (error, response, body) {
     if(error) {
         console.log("something went wrong!");
         console.log(error);
